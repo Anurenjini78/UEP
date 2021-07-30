@@ -37,5 +37,7 @@ jobs:
         name: webpack artifacts
         path: public
     - run: npm test
+    - run: npm test -- --coverage --watchAll=false
+
   
 
